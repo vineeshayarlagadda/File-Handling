@@ -1,7 +1,5 @@
 package fileHandling;
 
-
-
 import java.io.BufferedReader;
 import java.io.File;
 import java.io.FileReader;
@@ -68,8 +66,9 @@ public class EmployeeRecord {
 		{
 			String keyName = itr.next();
 			List<Employee> list = map.get(keyName);
-			
+			System.out.println();
 			System.out.println("============="+" Device Information :- "+keyName+"=============");
+			System.out.println();
 			
 			for (Employee e : list) {
 				System.out.println(e);
